@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #151a22;
+}
+
+.container {
+    text-align: center;
+    color: whitesmoke;
+    padding: 0px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.container p {
+    text-align: left;
+}
+
+.row {
+    padding: 10px;
+}
+
+.container img {
+    border: 5px solid;
+    border-color: whitesmoke;
+    object-fit: cover;
+    width: inherit;
+}
+
+.container .col {
+    min-width: 350px;
+}
+
+.container hr {
+    margin: 0px;
+    background-color: darkred;
+    height: 5px;
+}
+
+#hr2 {
+    margin: 0px;
+    background-color: darkred;
+    height: 2px;
+}
+
+.container h1 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 350%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container h3 {
+    font-size: 250%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container h4 {
+    font-size: 200%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.right {
+    text-align: right;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#center {
+    text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    float: disabled;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {}
