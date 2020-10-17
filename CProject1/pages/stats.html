@@ -25,43 +25,63 @@
                     <a class="nav-link" href="../pages/empire.html">Empire</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/rebels.html">Rebellion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/stats.html">Check the Stats</a>
+                    <a class="nav-link" href="../pages/rebels.html">Rebellion<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../pages/about.html">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../pages/stats.html">Check the Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/about.html">About</a>
                 </li>
             </ul>
         </div>
     </nav>
-
     <div class="page-container">
-        <div class="container">
+        <div class="container" id="box">
             <div class="row">
                 <div class="col">
-                    <h1>About this Page</h1>
-                    <hr>
+                    <h2 class="checkHeader">Get More Details on a Starfighter</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <img src="../images/deathstar.jpeg">
+            <hr>
+            <div class="row" id="fighters">
+                <div class='col'>
+                    <div class='list'>
+                        <h3>Possible Starships</h3>
+                        <ul>
+                            <li>TIE-Advanced x1</li>
+                            <li>Imperial Shuttle</li>
+                            <li>Millennium Falcon</li>
+                            <li>Slave 1</li>
+                            <li>X-Wing</li>
+                            <li>Y-Wing</li>
+                            <li>A-Wing</li>
+                            <li>B-Wing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col" id="form">
+                    <form>
+                        <label class="fighterLabel">
+                            <h3>Enter a Starship</h3>
+                        </label>
+                        <br>
+                        <input id="fighterInput" type="text">
+                        <br>
+                        <input id="fighterSubmit" type="submit" value="Submit">
+                        <div id='error'></div>
+                    </form>
                 </div>
             </div>
+            <hr><br>
             <div class="row">
                 <div class="col">
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h4>Thanks For Visisting!</h4>
-                    <p id="center">I hope you were able to learn something about the fighters that brave pilots flew.  The war could have turned out very differently for the Rebellion had they not used the starfighters that they did.  So far I have only covered the most generic of the fighters used, but there were many more that fought in the war.  This page has just started, but hopefully there will be updates soon to expand the database and teach more about these starfighters!</p>
+                    <div id="starship"></div>
                 </div>
             </div>
         </div>
+
+
         <footer class="footer">
             <a href="https://github.com/nrwinward/CProject">GitHub</a>
         </footer>
@@ -70,4 +90,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body></html>
+    <script text="type/javascript" src="../script.js"></script>
+</body>
+
+</html>

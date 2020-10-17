@@ -58,6 +58,43 @@ body {
     font-family: 'Bebas Neue', cursive;
 }
 
+.list {
+    margin: auto;
+    border: 5px solid;
+    border-color: whitesmoke;
+    padding: 5px;
+    min-height: 270px;
+    margin: 5px;
+}
+
+.list h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+form {
+    border: 5px solid;
+    border-color: whitesmoke;
+    padding: 5px;
+    padding-top: 30px;
+    min-height: 270px;
+    margin: 5px;
+}
+
+#errorMsg {
+    text-align: center;
+}
+
+#manufacturer {
+    margin-top: 5px;
+}
+
 .container h3 {
     font-size: 250%;
     font-family: 'Bebas Neue', cursive;
